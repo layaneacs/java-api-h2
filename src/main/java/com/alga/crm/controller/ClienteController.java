@@ -18,7 +18,7 @@ import com.alga.crm.repository.ClienteRepository;
 @RequestMapping("/cliente")
 public class ClienteController {
 	
-	@Autowired //-- Cria uma Instancia...Dependency Injection 
+	@Autowired 
 	private ClienteRepository repository;	
 	
 	@GetMapping
